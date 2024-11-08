@@ -1,0 +1,252 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  h1, h2, h3 {
+    color: #1a1a1a;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  .navbar h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  .navbar nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Banner Section */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fef6e4;
+  }
+  .banner-content {
+    max-width: 50%;
+  }
+  .banner-content h2 {
+    font-size: 36px;
+    color: #ff8c00;
+  }
+  .banner-content p {
+    margin: 10px 0;
+    color: #666;
+  }
+  .explore-btn {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .universities {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .universities img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .banner-image {
+    max-width: 40%;
+    height: auto;
+  }
+  
+  /* Course Categories */
+  .categories {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .category-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .category-card {
+    padding: 15px 20px;
+    background-color: #e0e8f0;
+    margin: 10px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Featured Courses */
+  .featured-courses {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  .course-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .course-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  .course-card h3 {
+    color: #ff8c00;
+  }
+  .course-card p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .course-card button {
+    padding: 10px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+/* Registration Section */
+.registration-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  .registration-section h2 {
+    color: #ff8c00;
+    margin-bottom: 20px;
+  }
+  #registration-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .register-btn:hover {
+    background-color: #e67c00;
+  }
+  #registration-success {
+    margin-top: 20px;
+    color: #28a745;
+    font-size: 16px;
+  }
+  .hidden {
+    display: none;
+  }
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  .contact-section h2 {
+    color: #ff8c00;
+    margin-bottom: 10px;
+  }
+  .contact-section p {
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #contact-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .contact-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .contact-btn:hover {
+    background-color: #e67c00;
+  }
+  #contact-success {
+    margin-top: 20px;
+    color: #28a745;
+    font-size: 16px;
+  }
+  .hidden {
+    display: none;
+  }
+    

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Course Platform</title>
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="navbar">
+        <h1>CourseDesk</h1>
+        <nav>
+          <a href="index.html">Home</a>             <!-- Link to Home page -->
+          <a href="#featured-courses">Featured course</a>         <!-- Link to About Us page -->
+          <a href="#registration-section">Registration</a> <!-- Link to Registration page -->
+          <a href="#contact">contact us</a>  <!-- Link to Contact Us page -->
+        </nav>
+      </div>
+      
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-content">
+      <h2>Update your skills without limits</h2>
+      <p>Learn from experts, at your own pace, and advance your career.</p>
+      <button class="explore-btn">Explore Courses</button>
+      <div class="universities">
+        <p>Learn from top universities:</p>
+        <img src="images/stanford1.jpeg" alt="Stanford">
+        <img src="images/duke.jpeg" alt="Duke">
+        <img src="images/th.jpeg" alt="Penn">
+      </div>
+    </div>
+    <img src="images/student.jpg" alt="Student" class="banner-image">
+  </section>
+
+  <!-- Course Categories -->
+  <section class="categories">
+    <h2>More Courses from Categories</h2>
+    <div class="category-list">
+      <div class="category-card">Design</div>
+      <div class="category-card">Business</div>
+      <div class="category-card">Marketing</div>
+      <div class="category-card">Photography</div>
+      <div class="category-card">Accounting</div>
+    </div>
+  </section>
+
+  <!-- Featured Courses -->
+  <section  id="featured-courses" class="featured-courses">
+    <h2>Featured Courses</h2>
+    <div class="course-list">
+      <div class="course-card">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, and JavaScript to build modern web applications.</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <h3>Data Science</h3>
+        <p>Understand data, learn Python, and become a data analyst.</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <h3>Blockchain Basics</h3>
+        <p>Get introduced to blockchain technology and cryptocurrencies.</p>
+        <button>Enroll Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- Registration Form Section -->
+  <section id="registration-section" class="registration-section">
+    <h2>Create an Account</h2>
+    <form id="registration-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <button type="submit" class="register-btn">Register</button>
+      <p>Already have an account? <a href="login.html">Login here</a>.</p>
+    </form>
+    <div id="registration-success" class="hidden">Registration successful!</div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out. We’re here to help you!</p>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+    <div id="contact-success" class="hidden">Your message has been sent successfully!</div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 CourseDesk. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
